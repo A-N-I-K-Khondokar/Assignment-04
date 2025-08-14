@@ -15,5 +15,5 @@ function isSame(arr1, arr2) {
 }
 
 
-const arr = isSame({ data: [2, 5, 6] }, [2, 5, 6])
+const arr = isSame([2 , 5 , 6] ,256)
 console.log(arr)

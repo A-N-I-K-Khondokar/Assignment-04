@@ -4,9 +4,8 @@ function totalFine(fare) {
         return fare + (fare * 0.2) + 30;
     }
     else {
-        return "invalid";
+        return "Invalid";
     }
-
 }
-const x = totalFine("Gorib tai ticket katinai");
+const x = totalFine("-552");
 console.log(x);
